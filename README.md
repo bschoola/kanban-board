@@ -1,2 +1,3 @@
-# kanban-board
-kanban board in angular
+# Kanban-board project
+
+kanban board in angular and backend in python
