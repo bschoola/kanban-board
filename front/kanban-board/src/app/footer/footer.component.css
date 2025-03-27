@@ -1,0 +1,15 @@
+footer {
+    position: sticky;
+    bottom: 0;
+    padding: 22px;
+    background:#2b0254;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer h3 {
+    font-size: 1.0rem;
+    color: aliceblue;
+    padding-left: 40%;
+}
