@@ -7,10 +7,15 @@ footer {
   background: rgb(35, 113, 159);
 }
 
-footer h5 {
-    color: aliceblue;
-    text-align: center;
+h3 {
+    font-size: 1.0rem; 
     background: rgb(35, 113, 159);
+    color: aliceblue;
+    padding-left: 40%; 
 }
 
-
+footer p {
+  font-size: 0.8rem; 
+  margin-top: 10px;
+  color: aliceblue;
+}
