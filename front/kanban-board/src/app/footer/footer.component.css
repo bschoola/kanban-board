@@ -12,10 +12,17 @@ footer {
 
 
 footer h3 {
-    font-size: 1.0rem;
-    color: aliceblue;
-    padding-left: 40%;
-    font-family: Arial, sans-serif; 
+    font-size: 1.0rem; 
+    color: aliceblue; 
+    padding-left: 40%; 
+    font-family: Arial, sans-serif;
 }
+
+footer p {
+  font-size: 0.8rem; 
+  margin-top: 10px;
+  color: aliceblue;
+  font-family: Arial, sans-serif; 
+} 
 
 
