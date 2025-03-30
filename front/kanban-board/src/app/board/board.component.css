@@ -1,24 +1,23 @@
   main {
     width: 100%;
     height: 300px;
-    background:#efeef0;
-    margin: 0 auto 1rem auto;    
+    background: #efeef0;
+    margin: 0 auto 1rem auto;
     display: flex;
     flex-direction: row; /* Ensures items are placed in a row */
     gap: 16px; /* Optional: Adds spacing between the items */
-
     justify-content: space-between;
-  }  
-
-  .main app-workspace:first-child {
-    margin-left: 0; /* Remove left margin for the first element */
   }
 
-  .main app-workspace:last-child {
-    margin-right: 0; /* Remove right margin for the last element */
+  main app-workspace:first-child {
+    margin-left: 20px; /* Add left margin for the first element */
   }
 
-  .main app-workspace {
+  main app-workspace:last-child {
+    margin-right: 20px; /* Add right margin for the last element */
+  }
+
+  main app-workspace {
     flex: 1; /* Ensures all items take equal space */
     margin: 0 10px; /* Optional: Add spacing between elements */
   }
