@@ -1,20 +1,16 @@
 footer {
-  position: fixed; /* Fixes the footer to the viewport */
-  bottom: 0; /* Ensures it stays at the bottom */
-  left: 0; /* Aligns it to the left edge */
-  width: 100%; /* Makes the footer span the full width of the page */
-  padding: 22px;
-  background: #2b0254;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgb(35, 113, 159);
 }
 
-
-footer h3 {
-    font-size: 1.0rem;
+footer h5 {
     color: aliceblue;
-    padding-left: 40%;
+    text-align: center;
+    background: rgb(35, 113, 159);
 }
 
 
