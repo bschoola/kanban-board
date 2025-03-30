@@ -1,17 +1,21 @@
 main {
     background-color: #A9BFD3;
     width: 100%;
-    height: 100vh; /* Full height of the viewport */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack children vertically */
-    border-radius: 15px; /* Add rounded corners */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
 }
 
 .workspace {
     margin-left: 5%;
     margin-top: 2%;
+    margin-right: 2%;
+    background-color: #A9BFD3;
+    border-radius: 15px;
 }
 
-h2 {
-    font-family: Arial, sans-serif; 
+h2, p {
+    padding: 1rem; 
+    background-color: #A9BFD3;
 }
