@@ -1,23 +1,27 @@
-📌 Kanban Board - Gerenciamento de Projetos e Tarefas
+# 📌 Kanban Board - Gerenciamento de Projetos e Tarefas
 
 Bem-vindo ao Kanban Board, um projeto de estudo para gerenciamento eficiente de projetos e tarefas. 🚀
 
-✨ Visão Geral
+## ✨ Visão Geral
 
 Este é um sistema de gerenciamento de tarefas baseado na metodologia Kanban. Ele permite que você organize suas atividades de forma visual, tornando o fluxo de trabalho mais eficiente.
 
 🔹 Frontend: Desenvolvido em Angular 🅰️
+
 🔹 Backend: API RESTful em Python 🐍 com Flask
+
 🔹 Banco de Dados: PostgreSQL 🐘
+
 🔹 Autenticação: JWT (JSON Web Tokens) 🔑
 
-📷 Screenshot
+
+## 📷 Screenshot
 
 Aqui você pode adicionar uma imagem do sistema em funcionamento
 
 🚀 Tecnologias Utilizadas
 
-Tecnologia
+## Tecnologia
 
 Descrição
 
@@ -39,7 +43,8 @@ Autenticação segura
 
 🐳 Docker
 
-Gerenciamento de containers
+
+## Gerenciamento de containers
 
 ⚙️ Como Rodar o Projeto
 
@@ -57,18 +62,18 @@ PostgreSQL (https://www.postgresql.org/)
 
 Docker (opcional, para containerização)
 
-🏃 Passos para rodar
+## 🏃 Passos para rodar
 
 Frontend
 
-# Clone o repositório
+### Clone o repositório
 git clone https://github.com/seu-repo.git
 cd frontend
 
-# Instale as dependências
+### Instale as dependências
 npm install
 
-# Rode o projeto
+### Rode o projeto
 gng serve
 
 Acesse: http://localhost:4200/
@@ -77,15 +82,15 @@ Backend
 
 cd backend
 
-# Crie um ambiente virtual
+### Crie um ambiente virtual
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate  # Windows
 
-# Instale as dependências
+### Instale as dependências
 pip install -r requirements.txt
 
-# Configure a conexão com o PostgreSQL e rode a aplicação
+### Configure a conexão com o PostgreSQL e rode a aplicação
 python app.py
 
 Acesse: http://localhost:5000/
@@ -113,9 +118,9 @@ Acesse: http://localhost:5000/
 
 Projeto desenvolvido por:
 
-Bruno (GitHub)
+[Bruno GitHub](https://github.com/bschoola)
 
-Ricardo (GitHub)
+[Ricardo GitHub](https://github.com/stebulaitis)
 
 Se gostou do projeto, não esqueça de dar uma ⭐ no repositório!
 
