@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-workspace',
@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './workspace.component.html',
   styleUrl: './workspace.component.css'
 })
-export class WorkspaceComponent {
 
+export class WorkspaceComponent {
+    @Input({required: true}) name!: string;
 }
