@@ -5,3 +5,5 @@
     background-color: rgb(224, 228, 230); /* Substitua 'lightblue' pela cor desejada */
     font-family: Futura;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

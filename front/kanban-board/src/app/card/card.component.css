@@ -6,35 +6,39 @@
     background-color: #A9BFD3;
 }
 
-.card {
-    background-color: #f0e8c8;
-    border: 1px solid #f0e8c8;
+.post-it-card {
+    background-color: #fff9c4;
+    border: 1px solid #f0e68c;
     border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
     padding: 1rem;
     width: 200px;
     height: auto;
     font-family: Arial, sans-serif;
     color: #333;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+.post-it-card:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.card h3 {
-    background-color: #f0e8c8;
-    margin: 0 0 0.5rem 0;
+.post-it-card mat-card-header {
+    background-color: #fff9c4;
+}
+
+.post-it-card mat-card-title {
+    background-color: #fff9c4;
     font-size: 1.2rem;
     color: #444;
+    font-weight: bold;
 }
 
-.card p {
-    background-color: #f0e8c8;
-    margin: 0;
+.post-it-card mat-card-content {
+    background-color: #fff9c4;
     font-size: 0.9rem;
-    color: #666;
+    color: #333;
+    line-height: 1.4;
 }
