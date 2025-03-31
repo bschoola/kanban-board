@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
+import { CardComponent } from "../card/card.component";
 
 @Component({
   selector: 'app-workspace',
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './workspace.component.html',
   styleUrl: './workspace.component.css'
 })
